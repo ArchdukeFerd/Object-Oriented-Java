@@ -1,0 +1,7 @@
+{
+    "java.dependency.packagePresentation": "flat",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "ByteBank-Library/lib/Java Orientado a Objetos.jar"
+    ]
+}

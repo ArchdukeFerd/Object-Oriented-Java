@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AccountTest",
+            "request": "launch",
+            "mainClass": "AccountTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        },
+        {
+            "type": "java",
+            "name": "BalanceExceptionAccountTest",
+            "request": "launch",
+            "mainClass": "BalanceExceptionAccountTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        },
+        {
+            "type": "java",
+            "name": "BonusControlTest",
+            "request": "launch",
+            "mainClass": "BonusControlTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        },
+        {
+            "type": "java",
+            "name": "InternalSystemTest",
+            "request": "launch",
+            "mainClass": "InternalSystemTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        },
+        {
+            "type": "java",
+            "name": "ManagerTest",
+            "request": "launch",
+            "mainClass": "ManagerTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        },
+        {
+            "type": "java",
+            "name": "OfficialTest",
+            "request": "launch",
+            "mainClass": "OfficialTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        },
+        {
+            "type": "java",
+            "name": "ReferencesTest",
+            "request": "launch",
+            "mainClass": "ReferencesTest",
+            "projectName": "Java Orientado a Objetos_dc1e1732"
+        }
+    ]
+}
