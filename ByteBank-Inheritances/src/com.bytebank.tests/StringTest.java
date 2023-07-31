@@ -1,7 +1,7 @@
 public class StringTest {
     public static void main(String[] args) {
         String name = "test";
-        // String name2 = new String("test");
+        // String name2 = new String("test"); never used
         System.out.println(name);
         name = name.replace("t", "T");
         name = name.concat(" of replacements");
