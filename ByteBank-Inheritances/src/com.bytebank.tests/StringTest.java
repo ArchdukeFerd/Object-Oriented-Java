@@ -9,6 +9,7 @@ public class StringTest {
         name = name.toLowerCase();
         char letter = name.charAt(1);
         System.out.println(name);
+        System.out.println(name+letter);
         System.out.println(letter);
     }
 }
