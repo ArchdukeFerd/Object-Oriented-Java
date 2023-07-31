@@ -3,6 +3,6 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "ByteBank-Library/lib/Java Orientado a Objetos.jar"
+        "/home/archdukeferdinand/Documents/Oracle ONE/Java Orientado a Objetos/ByteBank-Library/lib/Java Orientado a Objetos.jar"
     ]
 }
