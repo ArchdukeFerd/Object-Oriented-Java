@@ -22,7 +22,7 @@ public class Flux {
             Method2();
           }
           catch(MyException me){
-            System.out.println("Here's YOUR exception");
+            System.out.println("Here's YOUR exception!");
             me.printStackTrace();
           } */
           Method2();
