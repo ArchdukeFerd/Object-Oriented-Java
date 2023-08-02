@@ -11,4 +11,8 @@ public class SavingsAccount extends AccountI {
     public void deposit(double value) {
         this.balance = this.balance + value;
     }
+    @Override
+    public String toString(){
+        return super.toString();
+    }
 }

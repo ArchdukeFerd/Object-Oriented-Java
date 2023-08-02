@@ -133,4 +133,10 @@ public abstract class AccountI {
     public static int getTotal(){
         return AccountI.total;
     }
+
+    @Override
+    public String toString(){
+        String account = "Number: "+this.number+" Agency: "+this.agency;
+        return account;
+    }
 }
