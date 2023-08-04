@@ -19,5 +19,10 @@ public class ArrayTestList {
         for(AccountI account : list){
             System.out.println(account);
         }
+
+        boolean contains = list.contains(da1);
+        if(list.contains(da1)){
+            System.out.println("It does");
+        }
     }
 }
