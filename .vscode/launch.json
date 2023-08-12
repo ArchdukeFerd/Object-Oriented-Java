@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ArrayTestList",
+            "request": "launch",
+            "mainClass": "ArrayTestList",
+            "projectName": "Object-Oriented-Java_4130496b"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"

@@ -139,4 +139,8 @@ public abstract class AccountI {
         String account = "Number: "+this.number+" Agency: "+this.agency;
         return account;
     }
+
+    public boolean equals(AccountI account){
+        return this.agency == account.getAgency() && this.number == account.getNumber();
+    }
 }
