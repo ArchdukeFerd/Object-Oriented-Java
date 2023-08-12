@@ -21,7 +21,7 @@ public class ArrayTestList {
         }
 
         boolean contains = list.contains(da1);
-        if(list.contains(da1)){
+        if(contains){
             System.out.println("It does");
         }
     }
