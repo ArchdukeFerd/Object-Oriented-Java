@@ -1,8 +1,11 @@
 import java.util.ArrayList;
+//import java.util.LinkedList;
+import java.util.List;
 
 public class ArrayTestList {
     public static void main(String[] args) {
-        ArrayList<AccountI> list = new ArrayList<>();
+        //List<Holder> holderList = new LinkedList<>();
+        List<AccountI> list = new ArrayList<>();
         AccountI da1 = new DepositAccount(1, 2);
         AccountI da2 = new DepositAccount(2, 1);
         AccountI da3 = new DepositAccount(1,2);
@@ -25,7 +28,7 @@ public class ArrayTestList {
         boolean contains = list.contains(da1);
         //References comparison
         if(contains){
-            System.out.println("It does");
+            System.out.println("It does, becomes (equals)");
         }
 
         //Values comparison

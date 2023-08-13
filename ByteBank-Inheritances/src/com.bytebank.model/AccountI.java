@@ -140,7 +140,13 @@ public abstract class AccountI {
         return account;
     }
 
-    public boolean equals(AccountI account){
+    /*public boolean equals(AccountI account){
+        return this.agency == account.getAgency() && this.number == account.getNumber();
+    }*/
+
+    @Override
+    public boolean equals(Object obj){
+        AccountI account = (AccountI) obj;
         return this.agency == account.getAgency() && this.number == account.getNumber();
     }
 }
