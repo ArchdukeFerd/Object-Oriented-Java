@@ -6,8 +6,8 @@ public class ArrayReviewTest {
         int[] numbers = new int[10];
         int number = 40;
         Integer numberObject = new Integer(40);
-        List list = new ArrayList();
-        list.add(number);
+        List<Integer> list = new ArrayList<Integer>();
+        list.add(number); //autoboxing
         list.add(numberObject);
     }
 }
