@@ -75,7 +75,7 @@ class holderNameSorter implements Comparator<AccountI>{
 
     @Override
     public int compare(AccountI o1, AccountI o2) {
-        
+        return 0;
     }
 
 }
