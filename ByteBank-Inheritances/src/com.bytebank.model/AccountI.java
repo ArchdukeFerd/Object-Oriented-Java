@@ -136,7 +136,7 @@ public abstract class AccountI {
 
     @Override
     public String toString(){
-        String account = "Number: "+this.number+" Agency: "+this.agency;
+        String account = "Number: "+this.number+" Agency: "+this.agency+" Holder: "+this.holder.getName();
         return account;
     }
 

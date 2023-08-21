@@ -51,6 +51,14 @@ public class ListSorterTest2 {
         for(AccountI account : list){
             System.out.println(account);
         }
+
+        Comparator<AccountI> holderNamecComparator = new accountNumberSorter();
+        
+        System.out.println("After sorting by holder name");
+        
+        for(AccountI account : list){
+            System.out.println(account);
+        }
     }
 }
 
@@ -75,7 +83,7 @@ class holderNameSorter implements Comparator<AccountI>{
 
     @Override
     public int compare(AccountI o1, AccountI o2) {
-        return 0;
+        return o1.getHolder().getName().compareTo(o2.getHolder().getName());
     }
 
 }
