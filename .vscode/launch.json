@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LambdaTest",
+            "request": "launch",
+            "mainClass": "LambdaTest",
+            "projectName": "Object-Oriented-Java_4130496b"
+        },
+        {
+            "type": "java",
             "name": "ListSorterTest2",
             "request": "launch",
             "mainClass": "ListSorterTest2",

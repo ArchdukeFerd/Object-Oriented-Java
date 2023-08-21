@@ -24,4 +24,10 @@ public class DepositAccount extends AccountI {
     }
 
 
+    @Override
+    public int compareTo(AccountI o) {
+        return 0;
+    }
+
+
 }

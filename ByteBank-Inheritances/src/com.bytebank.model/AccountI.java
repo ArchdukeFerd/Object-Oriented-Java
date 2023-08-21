@@ -2,7 +2,7 @@
  * @author archdukeferdinand
  * 
  */
-public abstract class AccountI {
+public abstract class AccountI implements Comparable<AccountI>{
     protected double balance;
     private int  agency;
     private int  number;
@@ -149,4 +149,13 @@ public abstract class AccountI {
         AccountI account = (AccountI) obj;
         return this.agency == account.getAgency() && this.number == account.getNumber();
     }
+
+    //Method used prior to Java 8
+    /*@Override
+    public int compareTo(AccountI o){
+        //Natural order: Agency number
+        //return Integer.compare(this.agency, o.getAgency());
+        //natural order: Balance
+        return Double.compare(this.getBalance(), o.getBalance());
+    }*/
 }
